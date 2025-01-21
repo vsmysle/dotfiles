@@ -1,0 +1,49 @@
+---
+window:
+  # Window dimensions
+  dimensions:
+    columns: 150
+    lines: 50
+
+  # Spread additional padding evenly around the terminal content
+  dynamic_padding: false
+
+  padding:
+    x: 12
+    y: 25
+
+  # Window decorations
+  decorations: transparent
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer
+  history: 40000
+
+font:
+  # Normal font face
+  normal:
+    family: Iosevka Nerd Font
+
+  # Point size
+  size: 12.0
+
+
+bell:
+  duration: 0
+
+selection:
+  save_to_clipboard: true
+
+cursor:
+  blink_interval: 500
+  style:
+    shape: Underline
+    blinking: Always
+
+live_config_reload: true
+
+mouse:
+  hide_when_typing: false
+
+import:
+ - dracula.yml

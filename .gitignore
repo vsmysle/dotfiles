@@ -1,0 +1,15 @@
+target/
+.tmp*
+
+# zed
+conversations/
+embeddings/
+prompts/
+
+# solana stuff
+solana/
+
+#nvim (for now)
+nvim
+
+raycast/
